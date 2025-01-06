@@ -1,0 +1,62 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
+/* General styles */
+body {
+    background-color: #fff4e6; /* Light peach background */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Dark gray text color for better readability */
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff6f61; /* Coral color for the title */
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2, h3, h4, h5 {
+    color: #ff6f61; /* Coral color for all headings */
+}
+
+img {
+    border: 5px solid #ffd1dc; /* Light pink border */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul, ol {
+    text-align: left; /* Align lists to the left */
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px; /* Constrain width for better readability */
+}
+
+ul li, ol li {
+    background-color: #ffe4e1; /* Light pink background for list items */
+    border: 1px solid #ffd1dc; /* Light pink border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Link styles */
+a {
+    color: #ff6f61; /* Coral color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
